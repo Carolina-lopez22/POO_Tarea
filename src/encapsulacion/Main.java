@@ -7,6 +7,7 @@ public class Main {
 	ejercicio2();
 	ejercicio3();
 	ejercicio4();
+	ejercicio5();
 	}
 	
 	private static void ejercicio1() {
@@ -51,6 +52,22 @@ public class Main {
 		cuen1.retirar(600);
 		
 		System.out.println(cuen1.mostrar());
+	}
+	private static void ejercicio5() {
+		Libro lib1 = new Libro("Las 7 maravillas", "Hugo.Fabela", 500);
+		Libro lib2 = new Libro("No estas en la lista", "Hugo.Fabela", 100);
+		Libro lib3 = new Libro("Las 7 maravillas", "Hugo.Fabela", 500);
+		
+		if (lib1.esLargo()) {
+			System.out.println(lib1.mostrar() + "El libro tienes mas de 300 pag.");
+		}
+		if (lib2.esLargo()) {
+			System.out.println(lib1.mostrar() + "El libro tienes mas de 300 pag.");
+		}
+		if (lib3.esLargo()) {
+			System.out.println(lib1.mostrar() + "El libro tienes mas de 300 pag.");
+		}
+		
 	}
 	}
 
