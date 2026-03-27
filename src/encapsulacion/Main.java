@@ -8,6 +8,7 @@ public class Main {
 	ejercicio3();
 	ejercicio4();
 	ejercicio5();
+	ejercicio6();
 	}
 	
 	private static void ejercicio1() {
@@ -59,16 +60,27 @@ public class Main {
 		Libro lib3 = new Libro("Las 7 maravillas", "Hugo.Fabela", 500);
 		
 		if (lib1.esLargo()) {
-			System.out.println(lib1.mostrar() + "El libro tienes mas de 300 pag.");
+			System.out.println(lib1.mostrar() + "El libro es largo.");
 		}
 		if (lib2.esLargo()) {
-			System.out.println(lib1.mostrar() + "El libro tienes mas de 300 pag.");
+			System.out.println(lib1.mostrar() + "El libro es largo.");
 		}
 		if (lib3.esLargo()) {
-			System.out.println(lib1.mostrar() + "El libro tienes mas de 300 pag.");
+			System.out.println(lib1.mostrar() + "El libro es largo.");
+		}	
 		}
-		
-	}
+		private static void ejercicio6() {
+			Calculadora operacion1 = new Calculadora(8,10);
+			Calculadora operacion2 = new Calculadora(4,0);
+			operacion1.sumar();
+			operacion1.restar();
+			operacion1.multiplicar();
+			operacion1.dividir();
+			operacion2.dividir();
+			
+			System.out.println(operacion1.mostrar());
+			System.out.println(operacion2.mostrar());
+		}
 	}
 
 		
