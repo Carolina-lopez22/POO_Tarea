@@ -70,16 +70,14 @@ public class Main {
 		}	
 		}
 		private static void ejercicio6() {
-			Calculadora operacion1 = new Calculadora(8,10);
+			Calculadora operacion1 = new Calculadora(80,7);
 			Calculadora operacion2 = new Calculadora(4,0);
-			operacion1.sumar();
-			operacion1.restar();
-			operacion1.multiplicar();
-			operacion1.dividir();
-			operacion2.dividir();
-			
-			System.out.println(operacion1.mostrar());
-			System.out.println(operacion2.mostrar());
+		
+			System.out.println("Suma: "+ operacion1.sumar());
+			System.out.println("Resta: "+operacion1.restar());
+			System.out.println("Multiplicación: "+operacion1.multiplicar());
+			System.out.println("Divición: "+ operacion1.dividir());
+			System.out.println("Divición: "+operacion2.dividir());
 		}
 	}
 

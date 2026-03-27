@@ -17,15 +17,12 @@ public class Calculadora {
 	public int multiplicar() {
 		return numero1*numero2;
 	}
-	public float dividir() {
+	public double dividir() {
 		if (numero2 == 0) {
 			System.out.println("No se puede dividir entre 0");
 			return 0;
 		}
 		return numero1/numero2;
 	}
-	public String mostrar() {
-		return "Operacion: "+numero1+""+numero2+"=";
-		
-	}
+
 }
