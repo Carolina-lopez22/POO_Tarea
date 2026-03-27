@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 	ejercicio1();
 	ejercicio2();
+	ejercicio3();
 	}
 	
 	private static void ejercicio1() {
@@ -29,8 +30,17 @@ public class Main {
 		}
 		else {
 			System.out.println("El rectangulo con mayor area es el rectangulo 2: " + area2);
-		}
+		}	
+	}
+	private static void ejercicio3() {
+		Producto produ1 = new Producto(001,"Televisor", 4500);
+		Producto produ2 = new Producto(002,"Lavadora", 7000);
 		
+		produ1.aplicarDescuento(15);
+		produ2.aplicarDescuento(25);
+		
+		System.out.println(produ1.mostrar());
+		System.out.println(produ2.mostrar());
 	}
 	}
 		
