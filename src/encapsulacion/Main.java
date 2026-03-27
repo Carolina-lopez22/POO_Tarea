@@ -6,6 +6,7 @@ public class Main {
 	ejercicio1();
 	ejercicio2();
 	ejercicio3();
+	ejercicio4();
 	}
 	
 	private static void ejercicio1() {
@@ -16,7 +17,6 @@ public class Main {
 		System.out.println(per1.mostrar());
 		System.out.println(per2.mostrar());
 		System.out.println(per3.mostrar());
-		
 	}	
 	private static void ejercicio2() {
 		Rectangulo rect1 = new Rectangulo(5, 10);
@@ -42,6 +42,17 @@ public class Main {
 		System.out.println(produ1.mostrar());
 		System.out.println(produ2.mostrar());
 	}
+	private static void ejercicio4() {
+		Cuenta cuen1 = new Cuenta("CARLA.MARROQUIN", 500);
+		
+		cuen1.depositar(500);
+		cuen1.retirar(-100);
+		cuen1.depositar(200);
+		cuen1.retirar(600);
+		
+		System.out.println(cuen1.mostrar());
 	}
+	}
+
 		
 
