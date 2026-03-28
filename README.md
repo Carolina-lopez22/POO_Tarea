@@ -1,4 +1,4 @@
-# Documentación POO
+# Documentación POO_Tarea
 En estos ejercicios realizados pude comprender mejor el manejo de atributos, metodos, validaciónes y diferentes estructuras en java 
 se pudo apreciar como el trabajar en diferentes clases da un mejor dominio a la hora de correguir errores, ya que sabia exactamente que 
 ejercicio era el que estaba generando error, trabaje con atributos private para representar las caracteristicas que necesitaba cada objeto
