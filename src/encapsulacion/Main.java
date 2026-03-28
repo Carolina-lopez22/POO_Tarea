@@ -85,13 +85,21 @@ public class Main {
 			Fecha fech2 = new Fecha(40,2,2003);
 			Fecha fech3 = new Fecha(19,15,2025);
 			
-			fech1.esValida();
-			fech2.esValida();
-			fech3.esValida();
-			
-			System.out.println(fech1.mostrar());
-			System.out.println(fech2.mostrar());
-			System.out.println(fech3.mostrar());
+			if (fech1.esValida()) {
+			System.out.println(fech1.mostrar()+" La fecha es valida");}
+			else {
+				System.out.println(fech1.mostrar()+" La fecha es invalida");
+			}
+			if (fech2.esValida()) {
+				System.out.println(fech2.mostrar()+" La fecha es valida");}
+				else {
+					System.out.println(fech2.mostrar()+" La fecha es invalida");
+				}
+			if (fech3.esValida()) {
+					System.out.println(fech3.mostrar()+" La fecha es valida");}
+				else {
+					System.out.println(fech3.mostrar()+" La fecha es invalida");
+		}
 		}
 	}
 

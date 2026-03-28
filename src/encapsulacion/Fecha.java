@@ -10,18 +10,12 @@ public class Fecha {
 		this.mes = mes;
 		this.año = año;
 	}
-	public int esValida() {
-		if (dia<=31) {
-			System.out.println("El dia es invalido");
-			if(mes<=12) {
-				System.out.println("El mes es invalido");
+	public boolean esValida() {
+		return (dia<=31) && (mes<=12);
 			} 
-			return 0;	
-		}
-		return 0;
-	}
+
 	public String mostrar() {
-		return "Fecha"+dia+"-"+mes+"-"+año;
+		return "Fecha: "+dia+"-"+mes+"-"+año;
 		}
 	}
 	
