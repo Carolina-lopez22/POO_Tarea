@@ -15,7 +15,7 @@ public class Libro {
 	}
 	
 	public String mostrar() {
-		return "El libro: "+titulo+" Autor: "+autor+" "+ paginas+"paginas";
+		return "El libro: "+titulo+" Autor: "+autor+" "+ paginas+"pag.";
 	}
 
 }
