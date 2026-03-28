@@ -9,6 +9,7 @@ public class Main {
 	ejercicio4();
 	ejercicio5();
 	ejercicio6();
+	ejercicio7();
 	}
 	
 	private static void ejercicio1() {
@@ -78,6 +79,19 @@ public class Main {
 			System.out.println("Multiplicación: "+operacion1.multiplicar());
 			System.out.println("Divición: "+ operacion1.dividir());
 			System.out.println("Divición: "+operacion2.dividir());
+		}
+		private static void ejercicio7() {
+			Fecha fech1 = new Fecha(5,12,2022);
+			Fecha fech2 = new Fecha(40,2,2003);
+			Fecha fech3 = new Fecha(19,15,2025);
+			
+			fech1.esValida();
+			fech2.esValida();
+			fech3.esValida();
+			
+			System.out.println(fech1.mostrar());
+			System.out.println(fech2.mostrar());
+			System.out.println(fech3.mostrar());
 		}
 	}
 
